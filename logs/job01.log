@@ -1,0 +1,23 @@
+Running with gitlab-runner 15.12.0~beta.41.g21da6177 (21da6177)
+  on 926889a910ba 5tg4P_ca, system ID: r_oV3QUts8gxKC
+Preparing the "docker" executor
+00:07
+Using Docker executor with image alpine:latest ...
+Pulling docker image alpine:latest ...
+Using docker image sha256:9ed4aefc74f6792b5a804d1d146fe4b4a2299147b0f50eaf2b08435d7b38c27e for alpine:latest with digest alpine@sha256:124c7d2707904eea7431fffe91522a01e5a861a624ee31d03372cc1d138a3126 ...
+Preparing environment
+00:04
+Running on runner-5tg4pca-project-3-concurrent-0 via 926889a910ba...
+Getting source from Git repository
+00:04
+Fetching changes with git depth set to 20...
+Initialized empty Git repository in /builds/chanhi2000/my-first-pipeline/.git/
+Created fresh repository.
+Checking out b2d6b073 as detached HEAD (ref is main)...
+Skipping Git submodules setup
+Executing "step_script" stage of the job script
+00:03
+Using docker image sha256:9ed4aefc74f6792b5a804d1d146fe4b4a2299147b0f50eaf2b08435d7b38c27e for alpine:latest with digest alpine@sha256:124c7d2707904eea7431fffe91522a01e5a861a624ee31d03372cc1d138a3126 ...
+$ echo "Hello World"
+Hello World
+Job succeeded
